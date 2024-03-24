@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop page</title>
+    <!--Css links-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="common.css">
+
+    
+    <!--Icons links-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    <!--Full cart bar icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous">
+
+</head>
+<body>
+  
+  <nav class="nav"> 
+    <div class="navbar">
+        <div class="logo"><img width="127" src="images/fencing/logo.jpeg" alt="logo"></div>
+        <div class="box">
+        <ul class="link">
+            <li><a href="#" >Home</a></li>
+            <li><a href="shop.html" class="active" aria-current="page">Shop</a></li>
+            <li><a href="#" >Quiz</a></li>
+            <li><a href="#" >Site Map</a></li>
+            <li><a href="test1.html" >Comment</a></li>
+            <li><a href="#" >About us</a></li>
+            <li><a href="explore.html" >Explore</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul> 
+        </div>
+        <form>
+            <div class="input"> <input type="search" placeholder="search...">
+            <button type="submit"><i class="fas fa-search"  ></i></button></div>
+        </form>
+        <div class="tog">
+            <i class="fa-solid fa-bars">
+
+            </i>
+        </div>   
+
+    </div>
+    <div class="dropDown ">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="shop.html"  class="active" aria-current="page">Shop</a></li>
+            <li><a href="#">Quiz</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Comment</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="explore.html" >Explore</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+        <ul class="social ">
+            <li><a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+        <form>
+            <div class="in"> <input type="search" placeholder="search...">
+            <button type="submit"><i class="fas fa-search"  ></i></button></div>
+        </form>
+
+
+
+    </div>
+  </nav> 
+
+  
+  <section class="cart-section">
+            
+            <!--cart icon in the full cart bar-->
+            <div>
+                <i class="bx bx-cart" id="cart-icon"> 0 items</i>
+            </div>
+            <!--cart-->
+            <div class="cart">
+                <h2 class="cart-title">My Cart</h2>
+                <!--content code is in java script-->
+                <div class="cart-content">
+
+                </div>
+                <!--Clear Cart-->
+                <button type="button" class="btn-clear">Clear Cart</button>
+                <!--Total-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs0</div>
+                </div>
+
+                <!--Buy Button-->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!--Cart Close-->
+                <i class="bx bx-x" id="close-cart"></i>
+            </div>
+
+  </section>
+         
+          
+        
+
+<section id="top">
+  <h2>Find everything you need to<br>unleash your inner athlete </h2>
+  <p>#StayHome#StaySafe</p>
+ 
+</section>
+<div id="feature" class="section-p1"><!--Categories-->
+  <div class="fe-box">                     <!--Category 1 shoes-->
+    <img src="images/fencing/shoes-cat_1.png" alt="shoes & socks">
+    <button id="shoes">Shoes & Socks</button>
+  </div>
+
+<div class="fe-box">                      <!--Category 2 costumes-->
+  <img src="images/fencing/clothing-category_1.png" alt="costumes">
+  <button id="costumes">Costumes</button>
+
+</div>
+
+<div class="fe-box">                      <!--Category 3 weapons-->
+  <img src="images/weapons/customfoilcreator.jpg" alt="weapons">
+  <button id="weapons">Weapons</button>
+
+</div>
+
+<div class="fe-box">                      <!--Category 4 bags-->
+  <img src="images/fencing/af-signature-bag.png" alt="bags">
+  <button id="bags">Bags</button>
+
+</div>
+
+<div class="fe-box">                      <!--Category 5 masks-->
+  <img src="images/fencing/masks-cat_1_2.png" alt="masks">
+  <button id="masks">Masks</button>
+
+</div>
+
+
+</div>
+<!--Shop-->
+<div class="shop container">
+    <!--Shop content-->
+    <div class="shop-content">
+      <div id="product1">
+
+
+      <div id="shoesCategory" class="category"> <!--Category 1 shoes product details-->
+        <section  class="section-p1">
+          <div class="pro-container">
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/shoesandsocks/advancedcoloredfencingsocks.jpg" alt="colored fencing socks" class="product-img">
+                <div class="des">
+                  <span>Nike</span> 
+                 <h5 class="product-title">COLORED FENCING SOCKS</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs12000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/shoesandsocks/advancedwhitefencingsocks.jpg" alt="white fencing socks" class="product-img">
+                <div class="des">
+                  <span>Nike</span> 
+                 <h5 class="product-title">WHITE FENCING SOCKS</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs18000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/shoesandsocks/hi-techrazorshoe.jpg" alt="hi-tech razor shoe" class="product-img">
+                <div class="des">
+                  <span>Nike</span> 
+                 <h5 class="product-title">HI-TECH RAZOR SHOE</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs10000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/shoesandsocks/juniornikeballestra2fencingshoeswhitegold.jpg" alt="ballestra 2 fencing shoes whitegold" class="product-img">
+                <div class="des">
+                  <span>Nike</span> 
+                 <h5 class="product-title">BALLESTRA WHITEGOLD</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs7500</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+        
+          </div>
+      
+      
+      
+        </section>
+      
+      </div>
+
+      <div id="costumesCategory" class="category"><!--Category 2 costumes product details-->
+        <section class="section-p1">
+          <div class="pro-container">
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/uniform/APEXFIEMENBREECHES.jpg" alt="APEX FIE MENS BREECHE" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">APEX FIE MENS BREECHE</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs12000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/uniform/APEXFIEMENSJACKET.jpg" alt="APEX FIE MENS JACKET" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">APEX FIE MENS JACKET</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs18000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/uniform/APEXFIEWOMENSBREECHES.jpg" alt="APEX FIE WOMENS BREECHES" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">APEX FIE WOMENS BREECHES</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs10000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/uniform/APEXFIEWOMENSJACKET.jpg" alt="APEX FIE WOMENS JACKET" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title"> APEX FIE WOMENS JACKET</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs7500</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+        
+          </div>
+      
+      
+      
+        </section>
+      
+      </div>
+      
+      <div id="weaponsCategory" class="category"><!--Category 3 weapons product details-->
+        <section class="section-p1">
+          <div class="pro-container">
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/weapons/customfoilcreator.jpg" alt="foil creator" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">FOIL CREATOR</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs20000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/weapons/projectzeroepee.jpg" alt="project zero epee" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">PROJECT ZERO EPEE</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs7500</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/weapons/customsabrecreator.jpg" alt="custom sabre creator" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">CUSTOM SABRE CREATOR</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs40000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/weapons/projectzerofoil.jpg" alt="project zero foil" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">PROJECT ZERO FOIL</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs24000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+      
+          </div>
+      
+        </section>
+      
+      </div>
+      
+      <div id="bagsCategory" class="category"><!--Category 4 bags product details-->
+        <section class="section-p1">
+          <div class="pro-container">
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/bags/thefreerollerbag.jpg" alt="the freerollerbag" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">THE FREEROLLER BAG</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs20000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/bags/theteambag.jpg" alt="the team bag" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">THE TEAM BAG</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs20000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/bags/ttheapexbag.jpg" alt="the apex bag" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">THE APEX BAG</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs10000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/bags/theclassicteambag.jpg" alt="classic team bag" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">THE CLASSIC TEAM BAG</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs25000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+          </div>
+      
+        </section>
+      
+      </div>
+      
+      <div id="masksCategory" class="category"><!--Category 5 masks product details-->
+        <section class="section-p1">
+          <div class="pro-container">
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/Masks/Arenacontourepeemask.jpg" alt="Arena contour epee mask" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">ARENA CONTOUR EPEE MASK</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs24000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/Masks/fietraditionalsabremask.jpg" alt="traditional sabre mask" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">TRADITIONAL SABRE MASK</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs75000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/Masks/x-changefiecontourepeemask.jpg" alt="project zero epee" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">FIE CONTOUR SABRE MASK</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs20000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+
+            <div class="product-box">
+              <div class="pro">
+                <img src="images/Masks/x-changefiecontourfoilmask.jpg" alt="fie contour foil mask" class="product-img">
+                <div class="des">
+                  <span>Leon Paul</span> 
+                 <h5 class="product-title">FIE CONTOUR FOIL MASK</h5>
+                 <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                </div>
+                <h4 class="price">Rs75000</h4>
+              </div>
+              <button class="add-cart">Add Cart</button>
+               </div>
+            </div>
+      
+      
+          </div>
+        </section>
+      
+      </div>
+
+
+    
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="rowF">
+      <div class="colF">
+          <img  src="images/fencing/logo.jpeg" alt="logo" class="logoF">
+          <p>Come join us and unleash your inner athlete.
+          </p>
+
+      </div>
+      <div class="colF">
+          <h3>Office<div class="underline"><span></span></div></h3>
+          <p>GP square</p>
+          <p>baudhaloka mawatha</p>
+          <p>kollpiti</p>
+          <p class="email-id"><a href="mailto:engardefen@gmail.com">engardefen@gmail.com</a> </p>
+         
+      </div>
+      <div class="colF">
+          <h3>Links<div class="underline"><span></span></div></h3>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Quiz</a></li>
+              <li><a href="#">Comment</a></li>
+              <li><a href="#">About us</a></li>
+          </ul>
+      </div>
+      <div class="colF">
+          <h3>Page Editor <div class="underline"><span></span></div></h3>
+          <p>Editor:-<span><a href="pageEditor.html">Amadee Ranasinghe</a></span></p>
+         
+          <div class="social-f">
+              <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+             </ul>
+          </div>
+      </div>
+      <div class="colF">
+         
+         <button onclick="topFunction()" href="shop.html" id="back-to-top" title="Go to top">BACK TO TOP</button>
+          
+         
+         
+      </div>
+      
+  </div>
+  <hr>
+  <p class="copy-rights">Engard Fencer  © 2023-All rights reseverd</p>
+</footer>
+
+<!--link to js-->
+<script src="script.js"></script>
+</body>
+
+
+</html>
